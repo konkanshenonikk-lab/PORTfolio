@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 82" role="img" aria-labelledby="title desc">
+  <title id="title">NXS pixel monogram</title>
+  <desc id="desc">Hand-placed pixel art spelling NXS in red on a black grid, flickering gently like a terminal display.</desc>
+
+  <style>
+    rect.bg{ fill:#0b0d0c; }
+    rect.px{ fill:#c0272d; animation: flick 3.2s ease-in-out infinite; }
+    rect.scan{ fill:#ffffff; opacity:0.02; }
+    .d0{ animation-delay:0s; }
+    .d1{ animation-delay:.5s; }
+    .d2{ animation-delay:1s; }
+    .d3{ animation-delay:1.6s; }
+    .d4{ animation-delay:2.2s; }
+    @keyframes flick{
+      0%, 100% { opacity: 1; }
+      48%      { opacity: 1; }
+      50%      { opacity: .45; }
+      52%      { opacity: 1; }
+      76%      { opacity: .7; }
+      78%      { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce){
+      rect.px{ animation: none; opacity: 1; }
+    }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="170" height="82"/>
+
+  
+  <rect class="px d0" x="10" y="10" width="8" height="8"/><rect class="px d2" x="46" y="10" width="8" height="8"/>
+  <rect class="px d1" x="10" y="19" width="8" height="8"/><rect class="px d3" x="19" y="19" width="8" height="8"/><rect class="px d0" x="46" y="19" width="8" height="8"/>
+  <rect class="px d2" x="10" y="28" width="8" height="8"/><rect class="px d4" x="19" y="28" width="8" height="8"/><rect class="px d1" x="46" y="28" width="8" height="8"/>
+  <rect class="px d0" x="10" y="37" width="8" height="8"/><rect class="px d3" x="28" y="37" width="8" height="8"/><rect class="px d2" x="46" y="37" width="8" height="8"/>
+  <rect class="px d1" x="10" y="46" width="8" height="8"/><rect class="px d4" x="37" y="46" width="8" height="8"/><rect class="px d0" x="46" y="46" width="8" height="8"/>
+  <rect class="px d3" x="10" y="55" width="8" height="8"/><rect class="px d1" x="37" y="55" width="8" height="8"/><rect class="px d2" x="46" y="55" width="8" height="8"/>
+  <rect class="px d0" x="10" y="64" width="8" height="8"/><rect class="px d4" x="46" y="64" width="8" height="8"/>
+
+  
+  <rect class="px d1" x="63" y="10" width="8" height="8"/><rect class="px d0" x="99" y="10" width="8" height="8"/>
+  <rect class="px d4" x="63" y="19" width="8" height="8"/><rect class="px d1" x="99" y="19" width="8" height="8"/>
+  <rect class="px d0" x="72" y="28" width="8" height="8"/><rect class="px d2" x="90" y="28" width="8" height="8"/>
+  <rect class="px d3" x="81" y="37" width="8" height="8"/>
+  <rect class="px d2" x="72" y="46" width="8" height="8"/><rect class="px d3" x="90" y="46" width="8" height="8"/>
+  <rect class="px d0" x="63" y="55" width="8" height="8"/><rect class="px d1" x="99" y="55" width="8" height="8"/>
+  <rect class="px d4" x="63" y="64" width="8" height="8"/><rect class="px d2" x="99" y="64" width="8" height="8"/>
+
+  
+  <rect class="px d0" x="125" y="10" width="8" height="8"/><rect class="px d3" x="134" y="10" width="8" height="8"/><rect class="px d1" x="143" y="10" width="8" height="8"/><rect class="px d2" x="152" y="10" width="8" height="8"/>
+  <rect class="px d4" x="116" y="19" width="8" height="8"/>
+  <rect class="px d0" x="116" y="28" width="8" height="8"/>
+  <rect class="px d1" x="125" y="37" width="8" height="8"/><rect class="px d2" x="134" y="37" width="8" height="8"/><rect class="px d3" x="143" y="37" width="8" height="8"/>
+  <rect class="px d0" x="152" y="46" width="8" height="8"/>
+  <rect class="px d4" x="152" y="55" width="8" height="8"/>
+  <rect class="px d2" x="116" y="64" width="8" height="8"/><rect class="px d1" x="125" y="64" width="8" height="8"/><rect class="px d3" x="134" y="64" width="8" height="8"/><rect class="px d0" x="143" y="64" width="8" height="8"/>
+
+  
+  <rect class="scan" x="0" y="0" width="170" height="2"/>
+  <rect class="scan" x="0" y="20" width="170" height="2"/>
+  <rect class="scan" x="0" y="40" width="170" height="2"/>
+  <rect class="scan" x="0" y="60" width="170" height="2"/>
+</svg>
